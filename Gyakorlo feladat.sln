@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D41_.Feladat", "41_.Feladat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D_42.Feladat", "D_42.Feladat\D_42.Feladat.csproj", "{30D61C15-79DF-4FC0-86CF-8D48FC898837}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D44_.Feladat", "D44_.Feladat\D44_.Feladat.csproj", "{421A30E4-4320-4CF5-B33B-5B113A78060F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{30D61C15-79DF-4FC0-86CF-8D48FC898837}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30D61C15-79DF-4FC0-86CF-8D48FC898837}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30D61C15-79DF-4FC0-86CF-8D48FC898837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{421A30E4-4320-4CF5-B33B-5B113A78060F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{421A30E4-4320-4CF5-B33B-5B113A78060F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{421A30E4-4320-4CF5-B33B-5B113A78060F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{421A30E4-4320-4CF5-B33B-5B113A78060F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
