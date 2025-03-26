@@ -28,7 +28,7 @@ namespace D_40.Feladat
                     parosdb++;
                 }
             }
-            Console.Write("Páratlan számok:" + parosdb);
+            Console.Write("\nPáros számok:" + parosdb);
         }
 
         private static void Listakiir(List<int> list)
