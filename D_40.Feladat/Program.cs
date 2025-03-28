@@ -13,12 +13,12 @@ namespace D_40.Feladat
             List<int> list = new List<int>();
             list = Listafeltolt(10);
             Listakiir(list);
-            Parosszam(list);
+            Parosszamesparatlan(list);
             
             Console.ReadLine();
         }
 
-        private static void Parosszam(List<int> list)
+        private static void Parosszamesparatlan(List<int> list)
         {
             int parosdb = 0;
             int paratlandb = 0;
