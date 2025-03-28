@@ -22,13 +22,13 @@ namespace D_39.Feladat
         private static void Legnagyobb(List<int> lista)
         {
             int max = lista.Max();
-            Console.Write("\nA lista legnagyobb eleme:"+max);
+            Console.Write("\nA lista legnagyobb eleme:"+max+ " Indexe:" + lista.IndexOf(max));
         }
 
         private static void Legkisebb(List<int> lista)
         {
            int min=lista.Min();
-            Console.Write("\nA lista legkisebb elem:"+min);
+            Console.Write("\nA lista legkisebb elem:"+min+" Indexe:"+lista.IndexOf(min));
         }
 
         static void Listakiir(List<int> lista)

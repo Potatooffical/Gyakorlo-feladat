@@ -21,14 +21,20 @@ namespace D_40.Feladat
         private static void Parosszam(List<int> list)
         {
             int parosdb = 0;
+            int paratlandb = 0;
             for (int i = 0; i < list.Count; i++)
             {
                 if (list[i] % 2 == 0)
                 {
                     parosdb++;
                 }
+                else
+                {
+                    paratlandb++;
+                }
             }
             Console.Write("\nPáros számok:" + parosdb);
+            Console.Write("\nPáratlan számok:" + paratlandb);
         }
 
         private static void Listakiir(List<int> list)

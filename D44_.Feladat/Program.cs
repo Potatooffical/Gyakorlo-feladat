@@ -29,7 +29,7 @@ namespace D44_.Feladat
             Random rnd = new Random();
             for (int i = 0; i < v; i++)
             {
-                lista.Add(rnd.Next(1,50));
+                lista.Add(rnd.Next(1,90));
             }
             return lista;
         }
